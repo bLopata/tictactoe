@@ -6,7 +6,6 @@
 let game = function () {
     
     var turnCount = 1,
-        winner,
         gameOver = false
     
     let checkForGameOver = () => {
@@ -19,7 +18,6 @@ let game = function () {
                 return false
             }
             else {
-                winner = arr[0]
                 return a === b ? a : false
             }
         }) === arr[0]
